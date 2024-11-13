@@ -5,40 +5,123 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jawher Kl Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Hi there 👋 I'm a passionate software engineer with 2+ years of experience in Angular, Node.js, Spring Boot, Symfony. and Go</p>
-        <nav>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">JawherKl</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" data-aos="fade-up">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hello, I’m Jawher 👋</h1>
+                <p>Software Engineer with a passion for creating efficient, modern web solutions.</p>
+                <a href="#projects" class="btn-primary">See My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/profile.jpg" alt="Profile Picture">
+            </div>
+        </div>
     </header>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>[Add a brief introduction about yourself]</p>
+
+    <!-- About Section -->
+    <section id="about" class="section" data-aos="fade-right">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>I am a dedicated software engineer with expertise in front-end and back-end technologies, including Angular, Go, Node.js, and more. I enjoy solving complex problems and building scalable applications.</p>
+        </div>
     </section>
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <!-- Pull skills from your GitHub profile at https://github.com/JawherKl -->
-            <li>JavaScript</li>
-            <li>Angular, Node.js, Go</li>
-            <li>Symfony, Spring boot</li>
-            <li>TypeScript</li>
-            <li>... (add more from your GitHub profile)</li>
-        </ul>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" data-aos="fade-left">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>TypeScript</li>
+                <li>Angular</li>
+                <li>Go</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+                <li>PostgreSQL</li>
+                <li>Git & GitHub</li>
+                <li>Docker</li>
+            </ul>
+        </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <p>Check out some of my work on my <a href="https://github.com/JawherKl">GitHub profile</a>.</p>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" data-aos="fade-up">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="card-container">
+                <!-- Project 1 -->
+                <div class="card">
+                    <img src="assets/images/project1.png" alt="Kafka Producers and Consumers with Golang">
+                    <h3>Kafka Producers and Consumers with Golang</h3>
+                    <p>This project demonstrates how to build Kafka Producers and Consumers using the Go programming language (Golang). It leverages the confluent-kafka-go library to connect and interact with Kafka brokers.</p>
+                    <a href="https://github.com/JawherKl/go-crud-graphql" class="btn-secondary" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Project 2 -->
+                <div class="card">
+                    <img src="assets/images/project2.png" alt="Node.js API with PostgreSQL">
+                    <h3>Node.js API with PostgreSQL</h3>
+                    <p>This is a simple RESTful API built with Node.js and Express, designed to interact with a PostgreSQL database. The API provides endpoints for managing user data and includes authentication features.</p>
+                    <a href="https://github.com/JawherKl/node-api-postgres" class="btn-secondary" target="_blank">View on GitHub</a>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
     </section>
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Feel free to reach out to me at kalleljawher4@gmail.com</p>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" data-aos="fade-in">
+        <div class="container">
+            <h2>Contact</h2>
+            <form id="contactForm">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+            <div id="formMessage"></div>
+        </div>
     </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Jawher Kl. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/JawherKl" target="_blank">GitHub</a>
+                <a href="https://twitter.com/jawher" target="_blank">Twitter</a>
+                <a href="https://jawher.net" target="_blank">Blog</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
