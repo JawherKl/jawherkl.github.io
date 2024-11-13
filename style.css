@@ -59,7 +59,7 @@ body {
 .nav-links a {
     color: #333;
     text-decoration: none;
-    font-weight: 500;
+    font-weight: 505;
     transition: color 0.3s ease;
 }
 
@@ -353,4 +353,17 @@ body.dark-mode .btn-secondary {
 
 body.dark-mode footer {
     background: #1f1f1f;
+}
+
+.navbar.dark-theme {
+    background-color: #333333;
+  }
+
+/* Style for the theme toggle button */
+.theme-toggle {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-left: 10px;
 }
