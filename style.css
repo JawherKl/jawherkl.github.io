@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+header {
+    text-align: center;
+    padding: 1em;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+section {
+    padding: 1em;
+}
