@@ -84,8 +84,14 @@ body {
 
 /* Hero Section */
 .hero {
-    background: #007bff;
+    /*background: #007bff;*/
+    background-image: url('../images/island.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
     color: #fff;
+    width: 100%;
     padding: 120px 20px 60px; /* Adjusted padding for fixed navbar */
     margin-top: 60px; /* Height of the navbar */
     display: flex;
