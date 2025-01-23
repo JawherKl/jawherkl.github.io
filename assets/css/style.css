@@ -17,8 +17,8 @@ body {
 
 /* Container */
 .container {
-    width: 90%;
-    max-width: 1200px;
+    width: 100%;
+    max-width: 1450px;
     margin: auto;
     overflow: hidden;
     padding: 20px 0;
@@ -107,6 +107,7 @@ body {
 .hero-text {
     flex: 1;
     min-width: 300px;
+    margin-left: 100px;
 }
 
 .hero-text h1 {
