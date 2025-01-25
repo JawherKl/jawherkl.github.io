@@ -17,8 +17,8 @@ body {
 
 /* Container */
 .container {
-    width: 100%;
-    max-width: 1450px;
+    width: 90%;
+    max-width: 1300px;
     margin: auto;
     overflow: hidden;
     padding: 20px 0;
