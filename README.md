@@ -1,7 +1,6 @@
 # Portfolio Website - Jawher Kl
 
-Welcome to the repository for my personal portfolio website! This project showcases my technical skills, projects, and expertise in software engineering. Visit the live site here: [Jawher Kl Portfolio](https://jawherkl.github.io/)
-the live vercel here: [Jawher Kl Portfolio](https://jawherkl-github-io.vercel.app/)
+Welcome to the repository for my personal portfolio website! This project showcases my technical skills, projects, and expertise in software engineering. Visit the live site here: [Jawher Kl Portfolio](https://jawherkl.github.io/) or visit the live vercel here: [Jawher Kl Portfolio](https://jawherkl-github-io.vercel.app/)
 
 ## 🌟 Features
 
