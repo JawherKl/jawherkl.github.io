@@ -14,23 +14,23 @@ Welcome to the repository for my personal portfolio website! This project showca
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: ReactJS, JavaScript
 - **Styling**: Bootstrap, custom CSS
-- **Hosting**: GitHub Pages
+- **Hosting**: GitHub Pages and vercel
 
 ## 📂 Project Structure
 
 ```
-.
-├── assets/          # Images, CSS, and JavaScript files
-│   ├── css/         # Custom and library stylesheets
-│   ├── js/          # Custom JavaScript functionality
-│   ├── img/         # Images and icons used in the site
-├── index.html       # Main landing page
-├── projects.html    # Projects showcase page
-├── about.html       # About me page
-├── contact.html     # Contact form and details
-└── README.md        # Repository documentation (you are here!)
+├── components/       # Reusable React components
+├── Images/           # Public images folder
+├── src/              # React components and styles
+│   ├── assets/       # Images and icons used in the site
+│   ├── App.css       # Main CSS component
+│   ├── App.jsx       # Main App component
+│   ├── index.css     # index css file
+│   ├── main.jsx      # Entry point for React
+├── index.html        # main index for project
+├── README.md         # Repository documentation (you are here!)
 ```
 
 ## 🚀 Getting Started
@@ -47,7 +47,15 @@ To run the project locally:
    cd jawherkl.github.io
    ```
 
-3. **Open `index.html` in your browser** to view the site locally.
+3. **Install the dependencies**:
+   ```bash
+   npm install
+   ```
+
+4. **Start the development server**:
+   ```bash
+   npm start
+   ```
 
 ## 📦 Deployment
 
