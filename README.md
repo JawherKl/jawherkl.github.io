@@ -1,6 +1,6 @@
 # Portfolio Website - Jawher Kl
 
-<img src ="https://github.com/soumyajiitt/Portfolio/blob/master/src/assets/portfolio.png" />
+<img src ="https://github.com/JawherKl/jawherkl.github.io/blob/main/src/assets/portfolio.png" />
 
 Welcome to the repository for my personal portfolio website! This project showcases my technical skills, projects, and expertise in software engineering. Visit the live site here: [Jawher Kl Portfolio](https://jawherkl.github.io)
 
