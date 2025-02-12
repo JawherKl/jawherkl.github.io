@@ -70,7 +70,3 @@ The portfolio is hosted using GitHub Pages. Any changes pushed to the `main` bra
 ## 📝 License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to contribute by opening issues or submitting pull requests. Feedback is always welcome! 🎉
