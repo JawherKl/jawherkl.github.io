@@ -19,10 +19,10 @@ const Qualification = () => {
                 <div className="qualification__content">
                     <div className="qualification__data">
                         <div>
-                            <h3 className="qualification__title">Bachelor of Technology🎓</h3>
-                            <span className="qualification__subtitle">REVA University - Bengaluru</span>
+                            <h3 className="qualification__title">Engineering Degree in Computer Science 🎓</h3>
+                            <span className="qualification__subtitle">ISI Ariana - Tunis, Ariana</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2020 - 2024
+                                <i className="uil uil-calendar-alt"></i> 2019 - 2023
                             </div>
                         </div>
 
@@ -40,10 +40,10 @@ const Qualification = () => {
                             <span className="qualification__line"></span>
                         </div>
                         <div>
-                            <h3 className="qualification__title">Higher Secondary🧪</h3>
-                            <span className="qualification__subtitle">CBSE - Bengaluru</span>
+                            <h3 className="qualification__title">Applied Bachelor's Degree in Information Technology 🧪</h3>
+                            <span className="qualification__subtitle">ISET Rades - Tunis, Rades</span>
                             <div className="qualification__calender">
-                                <i className="uil uil-calendar-alt"></i> 2018 - 2020
+                                <i className="uil uil-calendar-alt"></i> 2016 - 2019
                             </div>
                         </div>
                     </div>

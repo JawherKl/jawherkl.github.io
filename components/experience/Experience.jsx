@@ -19,11 +19,11 @@ const Experience = () => {
             <div className="exp__content">
                 <div>
                     <i className="uil uil-web-grid exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br /> Trainee </h3>
+                    <h3 className="exp__title">Software <br /> Engineer </h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">Edatis KPG</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(1)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -32,9 +32,10 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Trainee <br /> Jun'24 - Currently Working🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Developer Trainee for full-time at EXA AG.
-                            Providing quality work to clients and company.
+                        <h3 className="exp__modal-title">Software Engineer <br /> Dec'23 - Currently Working 🧑🏻‍💻</h3>
+                        <p className="exp__modal-description">Working currently as a Software Engineer for full-time at Edatis KPG.
+                            Collaborating with an international team for the design and development of
+                            web applications.
                         </p>
 
                         <ul className="exp__modal-experiences grid">
@@ -45,12 +46,12 @@ const Experience = () => {
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create UI Interfaces.</p>
+                                <p className="exp__modal-info">I create Frontend UI Interfaces With Angular.</p>
                             </li>
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">I create UX Element Interactions.</p>
+                                <p className="exp__modal-info">I create Backend API Interactions With Symfony.</p>
                             </li>
 
                         </ul>
@@ -61,11 +62,11 @@ const Experience = () => {
             <div className="exp__content">
                 <div>
                     <i className="uil uil-arrow exp__icon"></i>
-                    <h3 className="exp__title">Software <br /> Developer <br/> Intern</h3>
+                    <h3 className="exp__title">Software <br /> Developer</h3>
                 </div>
 
                 <div>
-                    <span className="exp__comp">EXA AG</span>
+                    <span className="exp__comp">Neocortex</span>
                 </div>
 
                 <span className="exp__button" onClick={() => toggleTab(2)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
@@ -74,8 +75,8 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Developer Intern <br /> Feb'24 - May'24</h3>
-                        <p className="exp__modal-description">Worked at EXA AG as Intern for 5 months.
+                        <h3 className="exp__modal-title">Software Developer Intern <br /> Feb'23 - Sep'23</h3>
+                        <p className="exp__modal-description">Worked at Neocortex as Intern for 8 months.
                             Providing quality work to clients and company.
                         </p>
 
@@ -92,7 +93,48 @@ const Experience = () => {
 
                             <li className="exp__modal-experience">
                                 <li className="uil uil-check-circle exp__modal-icon"></li>
-                                <p className="exp__modal-info">Part of the OTP (Operational Transfer Pricing) Team.</p>
+                                <p className="exp__modal-info">Contributed to improving employee satisfaction.</p>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="exp__content">
+                <div>
+                    <i className="uil uil-arrow exp__icon"></i>
+                    <h3 className="exp__title">Software <br /> Developer</h3>
+                </div>
+
+                <div>
+                    <span className="exp__comp">Saheelha</span>
+                </div>
+
+                <span className="exp__button" onClick={() => toggleTab(3)}>View More <i className="uil uil-arrow-right exp__button-icon"></i></span>
+
+                <div className={toggleState === 3 ? "exp__modal active-modal" : "exp__modal"}>
+                    <div className="exp__modal-content">
+                        <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
+
+                        <h3 className="exp__modal-title">Software Developer Remote <br /> Sep'20 - Feb'22</h3>
+                        <p className="exp__modal-description">Worked at Saheelha as Software mobile developer for 18 months.
+                            Providing quality work to clients and company.
+                        </p>
+
+                        <ul className="exp__modal-experiences grid">
+                            <li className="exp__modal-experience">
+                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <p className="exp__modal-info">I developed the User Mobile Interfaces.</p>
+                            </li>
+
+                            <li className="exp__modal-experience">
+                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <p className="exp__modal-info">Mobile App Development.</p>
+                            </li>
+
+                            <li className="exp__modal-experience">
+                                <li className="uil uil-check-circle exp__modal-icon"></li>
+                                <p className="exp__modal-info">Backend Intercation API Development.</p>
                             </li>
 
                         </ul>

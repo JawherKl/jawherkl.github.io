@@ -2,7 +2,7 @@
 import React from 'react'
 import "./about.css";
 import AboutImg from "../../src/assets/about-pic.png";
-import CV from "../../src/assets/Work5.png";
+import CV from "../../src/assets/seccvpro.pdf";
 import Info from './Info';
 
 const About = () => {
@@ -17,7 +17,7 @@ const About = () => {
           <div className="about__data">
             <Info />
 
-            <p className="about__description">Frontend Developer, I create web pages with UI / UX user interface, I create web pages with the skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.</p>
+            <p className="about__description">Software Engineer, I create web pages with UI/UX user interface, I create web pages with the skill set including Frontend and Backend Part with many framework, I have the tools to bring any website or mobile app to life.</p>
 
             <a download="" href={CV} className="button button--flex">Download CV 
               <svg

@@ -22,7 +22,6 @@ function App() {
 				<Experience />
 				<Qualification />
 				<About />
-				<Testimonials />
 				<Contact />
 			</main>
 
