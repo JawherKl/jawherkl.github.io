@@ -18,28 +18,32 @@ const Footer = () => {
                 </li>
 
                 <li>
-                    <a href="#testimonials" className="footer__link">Testimonials</a>
+                    <a href="#skills" className="footer__link">Skills</a>
                 </li>
             </ul>
 
             <div className="footer__social">
-                <a href="https://www.instagram.com/jawher-kallel/" className="footer__social-link" target="_blank">
+                <a href="https://www.instagram.com/jawher_kallel/" className="footer__social-link" target="_blank">
                     <i className="bx bxl-instagram"></i>
-                </a>
-
-                <a href="https://x.com/jawher-kallel" className="footer__social-link" target="_blank">
-                    <i className="bx bxl-twitter"></i>
                 </a>
 
                 <a href="https://github.com/JawherKl" className="footer__social-link" target="_blank">
                     <i className="bx bxl-github"></i>
                 </a>
+
+                <a href="https://x.com/kallel_jawher" className="footer__social-link" target="_blank">
+                    <i className="bx bxl-twitter"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jawher-kallel" className="footer__social-link" target="_blank">
+                    <i className="bx bxl-linkedin"></i>
+                </a>
+
                 <a href="https://github.com/jawherr" className="footer__social-link" target="_blank">
                     <i className="bx bxl-github"></i>
                 </a>
             </div>
 
-            <span className="footer__copy">&#169; Jawher Kallel. All rigths reserved</span>
+            <span className="footer__copy">&#169; 2025 JK. All rigths reserved</span>
         </div>
     </footer>
   )

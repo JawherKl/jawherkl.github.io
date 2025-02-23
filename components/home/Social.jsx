@@ -4,7 +4,7 @@ import React from 'react'
 const Social = () => {
   return (
     <div className="home__social">
-        <a href="https://www.instagram.com/jawher-kallel/" className="home__social-icon" target="_blank">
+        <a href="https://www.instagram.com/jawher_kallel/" className="home__social-icon" target="_blank">
             <i className="uil uil-instagram"></i>
         </a>
 
