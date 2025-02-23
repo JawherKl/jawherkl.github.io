@@ -59,7 +59,7 @@ To run the project locally:
 
 ## 📦 Deployment
 
-The portfolio is hosted using GitHub Pages. Any changes pushed to the `main` branch will be reflected automatically.
+The portfolio is hosted using GitHub Pages and Vercel. Any changes pushed to the `main` branch will be reflected automatically.
 
 ## 🎯 Future Enhancements
 
