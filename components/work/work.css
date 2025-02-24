@@ -151,3 +151,37 @@
 		column-gap: 0.25rem;
 	}
 }
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.pagination__btn {
+    padding: 8px 12px;
+    border: none;
+    background-color: #343434;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.pagination__btn:hover {
+    background-color: #5c5c5c;
+}
+
+.pagination__btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.pagination__btn.active {
+    background-color: #646464;
+    font-weight: bold;
+    border: 2px solid #fff;
+}
+
