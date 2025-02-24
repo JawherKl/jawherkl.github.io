@@ -7,6 +7,35 @@ import Project6 from '../../src/assets/Project6.png';
 import Project7 from '../../src/assets/Project7.png';
 import Project8 from '../../src/assets/Project8.png';
 import Project9 from '../../src/assets/Project9.png';
+import Project10 from '../../src/assets/Project10.png';
+import Project11 from '../../src/assets/Project11.png';
+import Project12 from '../../src/assets/Project12.png';
+import Project13 from '../../src/assets/Project13.png';
+import Project14 from '../../src/assets/Project14.png';
+import Project15 from '../../src/assets/Project15.png';
+import Project16 from '../../src/assets/Project16.png';
+import Project17 from '../../src/assets/Project17.png';
+import Project18 from '../../src/assets/Project18.png';
+import Project19 from '../../src/assets/Project19.png';
+import Project20 from '../../src/assets/Project20.png';
+import Project21 from '../../src/assets/Project21.png';
+import Project22 from '../../src/assets/Project22.png';
+import Project23 from '../../src/assets/Project23.png';
+import Project24 from '../../src/assets/Project24.png';
+import Project25 from '../../src/assets/Project25.png';
+import Project26 from '../../src/assets/Project26.png';
+import Project27 from '../../src/assets/Project27.png';
+import Project28 from '../../src/assets/Project28.png';
+import Project29 from '../../src/assets/Project29.png';
+import Project30 from '../../src/assets/Project30.png';
+import Project31 from '../../src/assets/Project31.png';
+import Project32 from '../../src/assets/Project32.png';
+import Project33 from '../../src/assets/Project33.png';
+import Project34 from '../../src/assets/Project34.png';
+import Project35 from '../../src/assets/Project35.png';
+import Project36 from '../../src/assets/Project36.png';
+import Project37 from '../../src/assets/Project37.png';
+import Project38 from '../../src/assets/Project38.png';
 import Project from '../../src/assets/Project.png';
 
 export const projectsData = [
@@ -31,7 +60,7 @@ export const projectsData = [
 	},
 	{
 		id: 3,
-		image: null,
+		image: Project11,
 		title: 'GraphQL Node.js E-commerce',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/graphql-nodejs-ecom',
@@ -40,7 +69,7 @@ export const projectsData = [
 	},
 	{
 		id: 4,
-		image: null,
+		image: Project12,
 		title: 'User Caching App',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/user-caching-app',
@@ -49,7 +78,7 @@ export const projectsData = [
 	},
 	{
 		id: 5,
-		image: null,
+		image: Project13,
 		title: 'Go User Caching',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/go-user-caching',
@@ -58,7 +87,7 @@ export const projectsData = [
 	},
 	{
 		id: 6,
-		image: null,
+		image: Project14,
 		title: 'Grpc Order Processing',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/grpc-order-process',
@@ -67,7 +96,7 @@ export const projectsData = [
 	},
 	{
 		id: 7,
-		image: null,
+		image: Project15,
 		title: 'Go Crud GraphQL',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/go-crud-graphql',
@@ -76,7 +105,16 @@ export const projectsData = [
 	},
 	{
 		id: 8,
-		image: null,
+		image: Project4,
+		title: 'Go Crud Movie',
+		category: 'API',
+		demoUrl: 'https://github.com/JawherKl/go-crud-movie-api',
+		sourceUrl: 'https://github.com/JawherKl/go-crud-movie-api',
+		status: 'completed',
+	},
+	{
+		id: 9,
+		image: Project16,
 		title: 'Kafka Go Microservices',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/kafka-go-microservices',
@@ -84,9 +122,9 @@ export const projectsData = [
 		status: 'completed',
 	},
 	{
-		id: 9,
-		image: null,
-		title: 'Kafka Go Microservices',
+		id: 10,
+		image: Project17,
+		title: 'API gRPC',
 		category: 'API',
 		demoUrl: 'https://github.com/JawherKl/api-gRPC',
 		sourceUrl: 'https://github.com/JawherKl/api-gRPC',
@@ -94,17 +132,8 @@ export const projectsData = [
 	},
 	// Website Projects
 	{
-		id: 10,
-		image: null,
-		title: 'AI FAQ Bot',
-		category: 'Website',
-		demoUrl: 'https://github.com/JawherKl/ai-faq-bot',
-		sourceUrl: 'https://github.com/JawherKl/ai-faq-bot',
-		status: 'completed',
-	},
-	{
 		id: 11,
-		image: null,
+		image: Project38,
 		title: 'Angular Guide',
 		category: 'Website',
 		demoUrl: 'https://github.com/JawherKl/angular-guide',
@@ -122,7 +151,7 @@ export const projectsData = [
 	},
 	{
 		id: 13,
-		image: Project7,
+		image: Project18,
 		title: 'DMARC Checker',
 		category: 'Website',
 		demoUrl: 'https://github.com/JawherKl/dmarc-checker',
@@ -131,7 +160,7 @@ export const projectsData = [
 	},
 	{
 		id: 14,
-		image: Project7,
+		image: Project6,
 		title: 'Simple Quiz App',
 		category: 'Website',
 		demoUrl: 'https://github.com/JawherKl/simple-quiz-app',
@@ -140,7 +169,7 @@ export const projectsData = [
 	},
 	{
 		id: 15,
-		image: Project7,
+		image: Project10,
 		title: 'Portfolio',
 		category: 'Website',
 		demoUrl: 'https://github.com/JawherKl/jawherkl.github.io',
@@ -149,7 +178,7 @@ export const projectsData = [
 	},
 	{
 		id: 16,
-		image: Project7,
+		image: Project8,
 		title: 'Ngx Admin',
 		category: 'Website',
 		demoUrl: 'https://github.com/JawherKl/ngx-admin',
@@ -158,19 +187,19 @@ export const projectsData = [
 	},
 	{
 		id: 17,
-		image: Project7,
+		image: Project19,
 		title: 'Angular Ng Select Customize',
 		category: 'Website',
-		demoUrl: 'https://github.com/JawherKl/angular-ng-select-customize',
+		demoUrl: 'https://angular-8kgrgs.stackblitz.io/',
 		sourceUrl: 'https://github.com/JawherKl/angular-ng-select-customize',
 		status: 'completed',
 	},
 	{
 		id: 18,
-		image: Project7,
+		image: Project20,
 		title: 'Angular Piechart Customize',
 		category: 'Website',
-		demoUrl: 'https://github.com/JawherKl/angular-piechart-customize',
+		demoUrl: 'https://angular-piechart-customize.stackblitz.io/',
 		sourceUrl: 'https://github.com/JawherKl/angular-piechart-customize',
 		status: 'completed',
 	},
@@ -186,7 +215,7 @@ export const projectsData = [
 	},
 	{
 		id: 20,
-		image: Project3,
+		image: Project21,
 		title: 'ArgoCD App',
 		category: 'Devops',
 		demoUrl: 'https://github.com/JawherKl/argocd-app',
@@ -195,7 +224,7 @@ export const projectsData = [
 	},
 	{
 		id: 21,
-		image: Project3,
+		image: Project22,
 		title: 'K8s Demo',
 		category: 'Devops',
 		demoUrl: 'https://github.com/JawherKl/k8s-demo',
@@ -204,7 +233,7 @@ export const projectsData = [
 	},
 	{
 		id: 22,
-		image: Project3,
+		image: Project23,
 		title: 'K8s Mongo App',
 		category: 'Devops',
 		demoUrl: 'https://github.com/JawherKl/k8s-mongo-app',
@@ -213,8 +242,8 @@ export const projectsData = [
 	},
 	{
 		id: 23,
-		image: Project3,
-		title: 'K8s Mongo App',
+		image: Project24,
+		title: 'Domain Automation API',
 		category: 'Devops',
 		demoUrl: 'https://github.com/JawherKl/domain-automation-api',
 		sourceUrl: 'https://github.com/JawherKl/domain-automation-api',
@@ -223,7 +252,7 @@ export const projectsData = [
 	// AI/ML Projects
 	{
 		id: 24,
-		image: null,
+		image: Project25,
 		title: 'AI Models Integration',
 		category: 'AI/ML',
 		demoUrl: 'https://github.com/JawherKl/ai-models-integration',
@@ -241,7 +270,7 @@ export const projectsData = [
 	},
 	{
 		id: 26,
-		image: Project9,
+		image: Project26,
 		title: 'Machine Learning Algorithme',
 		category: 'AI/ML',
 		demoUrl: 'https://github.com/jawherr/machine-learning-algorithme',
@@ -251,7 +280,7 @@ export const projectsData = [
 	// Contributions
 	{
 		id: 27,
-		image: null,
+		image: Project27,
 		title: 'Developer Roadmap Contribution',
 		category: 'Contributions',
 		demoUrl: 'https://github.com/JawherKl/developer-roadmap',
@@ -260,7 +289,7 @@ export const projectsData = [
 	},
 	{
 		id: 28,
-		image: null,
+		image: Project28,
 		title: 'Git Ignore Contribution',
 		category: 'Contributions',
 		demoUrl: 'https://github.com/JawherKl/gitignore',
@@ -279,7 +308,7 @@ export const projectsData = [
 	},
 	{
 		id: 30,
-		image: Project2,
+		image: Project29,
 		title: 'REST GraphQL gRPC',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/REST-GraphQL-gRPC',
@@ -288,7 +317,7 @@ export const projectsData = [
 	},
 	{
 		id: 31,
-		image: Project2,
+		image: Project30,
 		title: 'Database Fundamentals',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/database-fundamentals',
@@ -297,7 +326,7 @@ export const projectsData = [
 	},
 	{
 		id: 32,
-		image: Project2,
+		image: Project31,
 		title: 'C4 Diagram',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/C4-Diagram',
@@ -306,7 +335,7 @@ export const projectsData = [
 	},
 	{
 		id: 33,
-		image: Project2,
+		image: Project32,
 		title: 'Clustering',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/Clustering',
@@ -315,7 +344,7 @@ export const projectsData = [
 	},
 	{
 		id: 34,
-		image: Project2,
+		image: Project33,
 		title: 'Content Delivery Network CDN',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/Content-Delivery-Network-CDN',
@@ -324,7 +353,7 @@ export const projectsData = [
 	},
 	{
 		id: 35,
-		image: Project2,
+		image: Project34,
 		title: 'Load Balancing',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/Load-Balancing',
@@ -333,7 +362,7 @@ export const projectsData = [
 	},
 	{
 		id: 36,
-		image: Project2,
+		image: Project35,
 		title: 'Caching',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/Caching',
@@ -342,8 +371,8 @@ export const projectsData = [
 	},
 	{
 		id: 37,
-		image: Project2,
-		title: 'Caching',
+		image: Project36,
+		title: 'Domain Name System DNS',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/Domain-Name-System-DNS',
 		sourceUrl: 'https://github.com/JawherKl/Domain-Name-System-DNS',
@@ -351,7 +380,7 @@ export const projectsData = [
 	},
 	{
 		id: 38,
-		image: Project2,
+		image: Project37,
 		title: 'TypeScript Advanced Features',
 		category: 'Research',
 		demoUrl: 'https://github.com/JawherKl/typescript-advanced-features',
