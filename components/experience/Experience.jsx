@@ -32,8 +32,8 @@ const Experience = () => {
                     <div className="exp__modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times exp__modal-close"></i>
 
-                        <h3 className="exp__modal-title">Software Engineer <br /> Dec'23 - Currently Working 🧑🏻‍💻</h3>
-                        <p className="exp__modal-description">Working currently as a Software Engineer for full-time at Edatis KPG.
+                        <h3 className="exp__modal-title">Software Engineer <br /> Dec'23 - Dec'25🧑🏻‍💻</h3>
+                        <p className="exp__modal-description">Working as a Software Engineer for full-time at Edatis KPG.
                             Collaborating with an international team for the design and development of
                             web applications.
                         </p>
