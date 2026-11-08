@@ -166,14 +166,14 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
-  margin-left: auto;
-  margin-right: auto;
+  width: min(968px, calc(100% - 3rem));
+  margin-inline: auto;
 }
 
 .grid {
   display: grid;
   gap: 1.5rem;
+  min-width: 0;
 }
 
 /*=============== BUTTONS ===============*/
@@ -202,11 +202,6 @@ img {
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-  .container {
-    margin-left: var(--mb-1-5);
-    margin-right: var(--mb-1-5);
-  }
-
   .button {
     padding: 1rem 1.75rem;
   }
@@ -233,6 +228,22 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  :root {
+    --big-font-size: clamp(2rem, 9vw, 2.75rem);
+    --h1-font-size: 1.4rem;
+  }
+
+  .container {
+    width: calc(100% - 2rem);
+  }
+
+  .section {
+    padding: 2rem 0 3rem;
+  }
+
+  .button {
+    padding: 0.9rem 1.25rem;
+  }
 }
 
 /* For small devices */
@@ -242,7 +253,6 @@ img {
   }
 
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    width: calc(100% - 1.5rem);
   }
 }

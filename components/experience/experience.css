@@ -1,5 +1,5 @@
 .exp__container {
-   grid-template-columns: repeat(3, 270px);
+   grid-template-columns: repeat(3, minmax(0, 270px));
    justify-content: center;
    column-gap: 1.8rem;
 }
@@ -60,7 +60,9 @@
 }
 
 .exp__modal-content {
-    width: 500px;
+    width: min(500px, 100%);
+    max-height: 85vh;
+    overflow-y: auto;
     position: relative;
     background-color: var(--container-color);
     padding: 4.5rem 2.5rem 2.5rem;
@@ -119,7 +121,7 @@
 
 @media screen and (max-width: 992px) {
     .exp__container {
-        grid-template-columns: repeat(3, 218px);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
     }
 }
 
@@ -138,6 +140,10 @@
 }
 
 @media screen and (max-width: 576px) {
+    .exp__container {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
     .exp__modal-content {
         padding: 4.5rem 1.5rem 2.5rem;
     }
@@ -148,11 +154,7 @@
 }
 
 @media screen and (max-width: 350px) {
-    .exp__container {
-        grid-template-columns: max-content;
-    }
-
     .exp__content {
-        padding-right: 6rem;
+        padding-right: 1rem;
     }
 }

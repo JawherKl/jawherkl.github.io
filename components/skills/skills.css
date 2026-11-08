@@ -1,13 +1,13 @@
 .skills__container {
-    grid-template-columns: repeat(2, 350px);
-    column-gap: 6rem;
+    grid-template-columns: repeat(2, minmax(0, 350px));
+    column-gap: clamp(1.5rem, 5vw, 6rem);
     justify-content: center;
 }
 
 .skills__content {
     background-color: var(--container-color);
     border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 2rem 6rem;
+    padding: 2rem 2rem;
     border-radius: 1.5rem;
 }
 
@@ -52,16 +52,18 @@
 
 @media screen and (max-width: 992px) {
     .skills__container {
-        grid-template-columns: max-content;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
         row-gap: 2rem;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 768px) {
     .skills__container {
-        grid-template-columns: 1fr;
+        grid-template-columns: minmax(0, 1fr);
     }
+}
 
+@media screen and (max-width: 576px) {
     .skills__content {
         padding: 1.5rem;
     }
