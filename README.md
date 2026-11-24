@@ -72,6 +72,16 @@ The portfolio is hosted using GitHub Pages and Vercel. Any changes pushed to the
 
 This project is open-source and available under the [MIT License](LICENSE).
 
+## ⭐ Star History
+
+<a href="https://www.star-history.com/?repos=jawherkl%2Fjawherkl.github.io&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=jawherkl/jawherkl.github.io&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=jawherkl/jawherkl.github.io&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=jawherkl/jawherkl.github.io&type=date&legend=top-left" />
+ </picture>
+</a>
+
 ---------------------------------------------------------------------------------------
 
 🚀 **Built with ❤️ by [JawherKl](https://github.com/JawherKl)**
